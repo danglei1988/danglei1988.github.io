@@ -101,9 +101,11 @@ ignore:
 theme: Rebirth
 
 # Deployment
-## Docs: https://hexo.io/docs/one-command-deployment
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/danglei1988/danglei1988.github.io.git
+  branch: master
 
 # feed
 ##增加RSS

@@ -104,7 +104,7 @@ theme: Rebirth
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/danglei1988/danglei1988.github.io.git
+  repo: https://github.com/danglei1988/danglei1988.github.io
   branch: master
 
 # feed

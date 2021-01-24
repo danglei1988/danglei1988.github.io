@@ -786,6 +786,7 @@ pjax:
 
 # Inject the css and script (aplayer/meting)
 aplayerInject:
+  asset_injoect: false
   enable: false
   per_page: true
 

@@ -15,8 +15,9 @@ timezone: 'Asia/Shanghai'
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
 url: https://danglei1988.github.io
 root: /
-permalink: :category/:title.html
-permalink_defaults:
+permalink: :category/:hash.html
+permalink_defaults: 
+lang: en
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: true # Set to false to remove trailing '.html' from permalinks

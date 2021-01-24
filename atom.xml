@@ -6,7 +6,7 @@
   <link href="https://danglei1988.github.io/atom.xml" rel="self"/>
   
   <link href="https://danglei1988.github.io/"/>
-  <updated>2021-01-23T14:08:16.915Z</updated>
+  <updated>2021-01-24T11:00:05.498Z</updated>
   <id>https://danglei1988.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="https://danglei1988.github.io/uncategorized/hello-world.html"/>
-    <id>https://danglei1988.github.io/uncategorized/hello-world.html</id>
+    <title>测试文章标题</title>
+    <link href="https://danglei1988.github.io/Hexo/ff8c69fb9cb1.html"/>
+    <id>https://danglei1988.github.io/Hexo/ff8c69fb9cb1.html</id>
     <published>2021-01-23T14:08:16.915Z</published>
-    <updated>2021-01-23T14:08:16.915Z</updated>
+    <updated>2021-01-24T11:00:05.498Z</updated>
     
     
       
@@ -33,6 +33,8 @@
       
     
     
+    
+    <category term="Hexo" scheme="https://danglei1988.github.io/categories/Hexo/"/>
     
     
   </entry>

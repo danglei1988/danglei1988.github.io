@@ -44,12 +44,12 @@ social:
   # fab fa-github: https://github.com/xxxxx || Github
   # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
 
-# search (搜索功能)
+# search (搜索)
 # --------------------------------------
 
 # Algolia search
 algolia_search:
-  enable: true
+  enable: false
   hits:
     per_page: 6
 

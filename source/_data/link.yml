@@ -1,0 +1,9 @@
+- class_name: 友情鏈接
+  class_desc: 菊部的邻居们
+  link_list:
+    - name: JerryC
+      link: https://defcon.cn/
+    - name: 刺客博客
+      link: https://4ker.cc/
+      name: 往日微忆
+      link: https://www.yiwan.pro/

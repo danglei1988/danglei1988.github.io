@@ -132,7 +132,7 @@ feed:
   enable: true
   field: site
   exclude:
-    - 'www.jubuzz.com
+    - 'www.jubuzz.com'
     - 'images.jubuzz.com'
 
 # 自动生成sitemap

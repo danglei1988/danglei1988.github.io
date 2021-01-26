@@ -39,10 +39,10 @@ copy:
 
 # social settings (社交圖標設置)
 # formal:
-#   icon: link || the description
+   icon: link || the description
 social:
-  # fab fa-github: https://github.com/xxxxx || Github
-  # fas fa-envelope: mailto:xxxxxx@gmail.com || Email
+   fab fa-weibo: https://weibo.com/jubuzz || Weibo
+   fas fa-envelope: mailto:showtime4ever@126.com || Email
 
 # search (搜索)
 # --------------------------------------

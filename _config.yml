@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://danglei1988.github.io
+url: https://www.jubuzz.com
 root: /
 permalink: :category/:abbrlink.html
 abbrlink:

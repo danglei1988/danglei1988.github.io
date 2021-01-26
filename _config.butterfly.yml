@@ -91,7 +91,7 @@ avatar:
 index_img:
 
 # If the banner of page not setting, it will show the top_img
-default_top_img:
+default_top_img: https://images.jubuzz.com/PicGo/2ecc85effbcefb1052db8c8856da2f66-755b70.jpg
 
 # The banner image of archive page
 archive_img:

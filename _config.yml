@@ -127,11 +127,5 @@ feed:
   autodiscovery: true
   template:
 
-  #外链nofollow
-  nofollow:
-  enable: true
-  field: site
-  exclude:
-    - 'www.jubuzz.com'
-    - 'images.jubuzz.com'
+
 

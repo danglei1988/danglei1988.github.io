@@ -134,3 +134,7 @@ feed:
   exclude:
     - 'www.jubuzz.com
     - 'images.jubuzz.com'
+
+# 自动生成sitemap
+sitemap:
+  path: sitemap.xml

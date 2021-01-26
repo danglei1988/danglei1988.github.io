@@ -41,9 +41,9 @@ copy:
 # formal:
    #icon: link || the description
 social:
-   fa fa-weibo: https://weibo.com/jubuzz || Weibo
+   fas fa-weibo: https://weibo.com/jubuzz || Weibo
    fas fa-envelope: mailto:showtime4ever@126.com || Email
-   fa fa-qq: https://jq.qq.com/?_wv=1027&k=3AVldesK ||QQ
+   fas fa-qq: https://jq.qq.com/?_wv=1027&k=3AVldesK ||QQ
 
 # search (搜索)
 # --------------------------------------

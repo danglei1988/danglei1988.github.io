@@ -84,8 +84,8 @@ favicon: /img/favicon.png
 
 # Avatar (頭像)
 avatar:
-  img:
-  effect: false
+  img: /img/avatar.png
+  effect: true
 
 # The banner image of home page
 index_img:

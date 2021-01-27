@@ -631,9 +631,9 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
+      icon: fa fa-weibo
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://www.weibo.com/jubuzz
   card_announcement:
     enable: true
     content: 博客改版，新年新气象！

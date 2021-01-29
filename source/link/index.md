@@ -6,7 +6,6 @@ date: 2021-01-24 19:14:36
 <h2>菊部的邻居们</h2>
 <ul>
  	<li><a href="https://defcon.cn/" target="_blank" rel="noopener noreferrer">DEFCON笔记</a></li>
- 	<li><a href="http://www.aixdata.cn/" target="_blank" rel="noopener noreferrer">Hong's</a></li>
  	<li><a href="https://4ker.cc/" target="_blank" rel="noopener noreferrer">刺客博客</a></li>
  	<li><a href="https://www.yiwan.pro/" target="_blank" rel="noopener noreferrer">往日微忆</a></li>
  	<li><a href="https://imzm.im/" target="_blank" rel="noopener noreferrer">陈仓颉</a></li>

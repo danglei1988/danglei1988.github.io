@@ -184,12 +184,12 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
+  enable: true
   QR_code:
-    # - img: /img/wechat.jpg
+    # - img: https://images.jubuzz.com/uPic/IO7PBo.png
     #   link:
     #   text: wechat
-    # - img: /img/alipay.jpg
+    # - img: https://images.jubuzz.com/uPic/CXLv02.png
     #   link:
     #   text: alipay
 

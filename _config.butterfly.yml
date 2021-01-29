@@ -188,10 +188,10 @@ reward:
   QR_code:
      - img: /img/wechat.png
     #   link:
-       text: wechat
+       text: 微信
      - img: /img/alipay.png
     #   link:
-       text: alipay
+       text: 支付宝
 
 # Related Articles
 related_post:

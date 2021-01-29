@@ -186,10 +186,10 @@ post_copyright:
 reward:
   enable: true
   QR_code:
-    # - img: https://images.jubuzz.com/uPic/IO7PBo.png
+    # - img: /img/wechat.png
     #   link:
     #   text: wechat
-    # - img: https://images.jubuzz.com/uPic/CXLv02.png
+    # - img: /img/alipay.png
     #   link:
     #   text: alipay
 

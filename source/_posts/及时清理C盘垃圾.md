@@ -3,9 +3,9 @@ title: 及时清理C盘垃圾
 categories: tech
 keywords: 'Windows,清理,神器'
 description: 可能比CCleaner更好用的Windows系统清理软件
-date: 2021/1/28 21:42:49
+date: '2021/1/28 21:42:49'
 cover: 'https://images.jubuzz.com/PicGo/acd23fad1b633f43a535431389f8b7bc-1033c8.png'
-
+abbrlink: d546788b
 ---
 
 不少朋友可能经常使用CCleaner来进行Windows系统清理，CCleaner是好，但是实话实说，更新实在是太频繁了，几乎每次打开都要弹出更新提示，更新完了，隔段时间打开继续提示，所以我们需要一个可以长期使用的进行**Windows清理**的工具，那么今天推荐Wise Disk Cleaner。

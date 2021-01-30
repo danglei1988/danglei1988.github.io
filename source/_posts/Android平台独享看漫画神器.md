@@ -2,8 +2,8 @@
 title: Android平台独享看漫画神器
 categories: fun
 keywords: '漫画,Android'
-description: 不管是80年代的Mac，还是小时候的红白机、学习机，总有一款适合你
-date: '2021/1/30 21:45:49'
+description: 市面上有的漫画平台，基本上都可以用这个只有5M的App来调用
+date: '2021/1/30 23:22:49'
 cover: 'https://images.jubuzz.com/PicGo/3ab8fd090d5f973b8473685699a75e81-392796.jpg'
 ---
 

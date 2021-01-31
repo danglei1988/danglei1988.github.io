@@ -41,9 +41,10 @@ copy:
 # formal:
    #icon: link || the description
 social:
-   fa-weibo: https://weibo.com/jubuzz || Weibo
+   iconfont logo-sina: https://weibo.com/jubuzz || Weibo
    fas fa-envelope: mailto:showtime4ever@126.com || Email
-   fa-qq: https://jq.qq.com/?_wv=1027&k=3AVldesK ||QQ
+   iconfont logo-qq: https://jq.qq.com/?_wv=1027&k=3AVldesK ||QQ
+   iconfont logo-taobao: https://jubuzz.taobao.com/ ||Taobao
 
 # search (搜索)
 # --------------------------------------
@@ -849,7 +850,7 @@ css_prefix: true
 # 插入代码到头部 </head> 之前 和 底部 </body> 之前
 inject:
   head:
-    # - <link rel="stylesheet" href="/xxx.css">
+     - <link rel="stylesheet" href="/css/fonticon.css">
   bottom:
     # - <script src="xxxx"></script>
 

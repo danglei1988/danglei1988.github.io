@@ -632,9 +632,9 @@ aside:
     description:
     button:
       enable: true
-      icon: fas fa-github
-      text: Follow Me
-      link: https://www.github.com/danglei1988
+      icon: iconfont icon-logo-qq
+      text: 加入QQ群
+      link: https://jq.qq.com/?_wv=1027&k=3AVldesK
   card_announcement:
     enable: true
     content: 博客改版，新年新气象！

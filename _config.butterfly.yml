@@ -42,7 +42,7 @@ copy:
    #icon: link || the description
 social:
    iconfont icon-logo-sina: https://weibo.com/jubuzz || Weibo
-   fas fa-envelope: mailto:showtime4ever@126.com || Email
+   iconfont icon-Mail: mailto:showtime4ever@126.com || Email
    iconfont icon-logo-qq: https://jq.qq.com/?_wv=1027&k=3AVldesK ||QQ
    iconfont icon-logo-taobao: https://jubuzz.taobao.com/ ||taobao
 

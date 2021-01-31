@@ -41,10 +41,10 @@ copy:
 # formal:
    #icon: link || the description
 social:
-   iconfont logo-sina: https://weibo.com/jubuzz || Weibo
+   iconfont icon-logo-sina: https://weibo.com/jubuzz || Weibo
    fas fa-envelope: mailto:showtime4ever@126.com || Email
-   iconfont logo-qq: https://jq.qq.com/?_wv=1027&k=3AVldesK ||QQ
-   iconfont logo-taobao: https://jubuzz.taobao.com/ ||Taobao
+   iconfont icon-logo-qq: https://jq.qq.com/?_wv=1027&k=3AVldesK ||QQ
+   iconfont icon-logo-taobao: https://jubuzz.taobao.com/ ||taobao
 
 # search (搜索)
 # --------------------------------------

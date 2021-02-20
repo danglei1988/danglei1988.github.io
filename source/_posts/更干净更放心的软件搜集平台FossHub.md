@@ -4,7 +4,8 @@ categories: tech
 keywords: '软件,下载'
 description: 正常使用可能对英文有一定要求，不过借助浏览器的自动翻译应该也还好
 date: '2021/2/8 16:22:49'
-cover: https://images.jubuzz.com/uPic/NAC8iS.png
+cover: 'https://images.jubuzz.com/uPic/NAC8iS.png'
+abbrlink: c48f8c01
 ---
 
 昨天在公众号“十点神器”分享了一个微漫，忘了说那App是需要扶梯的，可能有些机灵的朋友已经猜到并成功使用了。微漫算是一个比较不错的开源App，最近对开源软件比较痴迷，今天再分享一个安全放心的开源软件搜集平台**FossHub**。

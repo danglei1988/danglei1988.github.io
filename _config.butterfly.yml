@@ -681,12 +681,12 @@ runtimeshow:
 
 # Aside widget - Newest Comments
 newest_comments:
-  enable: false
+  enable: true
   sort_order: # Don't modify the setting unless you know how it works
   limit: 6
   avatar: true
   # You can only choose one, or neither
-  valine: false
+  valine: true
   github_issues:
     enable: false
     repo:

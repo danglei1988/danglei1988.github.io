@@ -5,6 +5,7 @@ keywords: '漫画,Android'
 description: 市面上有的漫画平台，基本上都可以用这个只有5M的App来调用
 date: '2021/1/30 23:22:49'
 cover: 'https://images.jubuzz.com/PicGo/3ab8fd090d5f973b8473685699a75e81-392796.jpg'
+abbrlink: c8c69511
 ---
 
 最近突发奇想，有种想看漫画的冲动，毕竟从小学及初中毕业后，就没有正儿八经看过任何一本漫画，然后就陷入了各种平台的选择中，[一加8T](https://union-click.jd.com/jdc?e=&p=AyIGZRhfHAcRBFYeWhIyEgZUGlsRBREBVBpcJUZNXwtEa0xHV0YXEEULWldTCQQAQB1AWQkFWxQDEwdRHFgTAxMASkIeSV8iWQMeDFxFU28wYylwaXpmIWhcbQBIUVkXaxQyEQVVGVIWAxAPZStbEjJBaYCS6sG5g9DtoYy4icS30c3htNWpo4K%2B1CUDIgdSG1gUAhABUh1SEgoiAFUSa0pRSARUG1olMiIEZStrFTIRNxd1CRYGGgQHHF0RA0EAUBsJRwsRUwVMD0ALFQdcHQwVBxE3VxpaEQs%3D)作为我的主力娱乐机，自然看漫画这种操作要以它来承载，于是在混迹了酷安、Google Play以及一加商店等各种应用商店之后，也没有找到合适的**免费、多源、可离线的漫画App**。

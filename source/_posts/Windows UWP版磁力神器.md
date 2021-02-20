@@ -4,7 +4,8 @@ categories: tech
 keywords: '下载,磁力'
 description: 影视爱好者必备神器，啥也不多说了
 date: '2021/2/19 20:22:49'
-cover: https://images.jubuzz.com/PicGo/312ff784a01a0c8dbb52e0e6c16b069d-d8dd82.png
+cover: 'https://images.jubuzz.com/PicGo/312ff784a01a0c8dbb52e0e6c16b069d-d8dd82.png'
+abbrlink: bcc1dd34
 ---
 
 大家下载影视作品都是在电脑上进行的吧？今天分享一个可以在Windows平台上搜索和下载磁力资源的神器**光头侠**。

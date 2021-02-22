@@ -57,7 +57,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
 
 # Math (數學)
 # --------------------------------------
@@ -136,7 +136,7 @@ error_img:
 error_404:
   enable: true
   subtitle: '您要访问的页面没找到'
-  background: https://images.jubuzz.com/uPic/68TkVH.gif
+  background: https://images.jubuzz.com/PicGo/4ef3cfb882b6dd4128da4c8745e9a507-086fbe.jpg
 
 post_meta:
   page: # Home Page
@@ -627,6 +627,9 @@ aside:
   button: true
   mobile: true # display on mobile
   position: right # left or right
+  card_announcement:
+    enable: true
+    content: 本地搜索已更新，请回到顶部尝试一搜就有的骚操作
   card_author:
     enable: true
     description:
@@ -635,11 +638,8 @@ aside:
       icon: iconfont icon-logo-qq
       text: 加入QQ群
       link: https://jq.qq.com/?_wv=1027&k=3AVldesK
-  card_announcement:
-    enable: true
-    content: 博客改版，新年新气象！
   card_recent_post:
-    enable: true
+    enable: false
     limit: 5 # if set 0 will show all
     sort: date # date or updated
     sort_order: # Don't modify the setting unless you know how it works
@@ -686,7 +686,7 @@ newest_comments:
   limit: 6
   avatar: true
   # You can only choose one, or neither
-  valine: false
+  valine: true
   github_issues:
     enable: false
     repo:

@@ -209,12 +209,12 @@ anchor: false
 
 # Displays outdated notice for a post (文章過期提醒)
 noticeOutdate:
-  enable: false
+  enable: true
   style: flat # style: simple/flat
-  limit_day: 500 # When will it be shown
+  limit_day: 100 # When will it be shown
   position: top # position: top/bottom
-  message_prev: It has been
-  message_next: days since the last update, the content of the article may be outdated.
+  message_prev: 本文已经有
+  message_next: 天没有更新，互联网日新月异，恐已不合时宜，如遇失效，请搜索最新内容。
 
 # Share System (分享功能)
 # --------------------------------------

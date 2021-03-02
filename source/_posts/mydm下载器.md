@@ -11,7 +11,7 @@ cover: https://images.jubuzz.com/PicGo/59b43b44f1fa4cb202e414728f7ec83f-6b00e0.w
 
 Mydm是一个免费、模块化、轻量级下载软件。支持协议有:HTTP/HTTPS、FTP、Magnet、Thunder等，基本上涵盖了国内下载的各种情形。
 
-软件用易语言编写，并且据作者自己所说，没钱买证书，所以在Firefox下访问会弹出不安全提示，忽略即可，官网（“十点神器”回复“mydm”也可获得官网地址）提供最新版本的下载。
+软件用易语言编写，并且据作者自己所说，没钱买证书，所以在Firefox下访问会弹出不安全提示，忽略即可，[官网](https://www.mydmplus.com/)（“十点神器”回复“mydm”也可获得官网地址）提供最新版本的下载。
 
 ![mydm下载](https://images.jubuzz.com/PicGo/ef1245619daefdfcffb2e1d0d274b489-edd1c5.png)
 

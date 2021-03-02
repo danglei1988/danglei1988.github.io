@@ -949,7 +949,7 @@ CDN:
   douban:
   user: 187664705
   builtin: true
-  book:
+  # book:
     title: '那些书'
     quote: '那些书'
     meta: true
@@ -963,7 +963,7 @@ CDN:
     comments: true
     top_img: https://images.jubuzz.com/PicGo/16f99b1045489335d97bae7f5f086934-0227fa.jpg
     aside: true
-  game:
+  # game:
     title: '那些游戏'
     quote: '那些游戏'
     meta: true

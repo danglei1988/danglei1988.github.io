@@ -948,7 +948,7 @@ CDN:
   # 豆瓣插件
   douban:
   user: 187664705
-  builtin: false
+  builtin: true
   book:
     title: '那些书'
     quote: '那些书'

@@ -1,0 +1,241 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>及时清理C盘垃圾 | 菊部制造</title><meta name="keywords" content="Windows,清理,神器"><meta name="author" content="jubuzz"><meta name="copyright" content="jubuzz"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta http-equiv="Cache-Control" content="no-transform"><meta http-equiv="Cache-Control" content="no-siteapp"><meta name="description" content="可能比CCleaner更好用的Windows系统清理软件">
+<meta property="og:type" content="article">
+<meta property="og:title" content="及时清理C盘垃圾">
+<meta property="og:url" content="https://www.jubuzz.com/tech/d546788b.html">
+<meta property="og:site_name" content="菊部制造">
+<meta property="og:description" content="可能比CCleaner更好用的Windows系统清理软件">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://images.jubuzz.com/PicGo/acd23fad1b633f43a535431389f8b7bc-1033c8.png">
+<meta property="article:published_time" content="2021-01-28T13:42:49.000Z">
+<meta property="article:modified_time" content="2021-01-29T14:31:53.587Z">
+<meta property="article:author" content="jubuzz">
+<meta property="article:tag" content="薅羊毛,白嫖,破解,办公神器,菊">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://images.jubuzz.com/PicGo/acd23fad1b633f43a535431389f8b7bc-1033c8.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.jubuzz.com/tech/d546788b"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><meta name="baidu-site-verification" content="zpCylRwUfZmEpNco"/><meta name="360-site-verification" content="d182b3f28525f2db83acfaaf6e696dba"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><script async="async" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><script>(adsbygoogle = window.adsbygoogle || []).push({
+  google_ad_client: 'ca-pub-8191755860405863',
+  enable_page_level_ads: 'true'
+});</script><script>var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?75897e86aca08b3f655eba2447bb085f";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script><script async="async" src="https://www.googletagmanager.com/gtag/js?id=78634140"></script><script>window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', '78634140');
+</script><script>var GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: {"path":"search.xml","languages":{"hits_empty":"找不到您查询的内容：${query}"}},
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: true
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":50,"languages":{"author":"作者: jubuzz","link":"链接: ","source":"来源: 菊部制造","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    jQuery: 'https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js',
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css'
+    },
+    fancybox: {
+      js: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isanchor: false
+};
+
+var saveToLocal = {
+  set: function setWithExpiry(key, value, ttl) {
+    const now = new Date()
+    const expiryDay = ttl * 86400000
+    const item = {
+      value: value,
+      expiry: now.getTime() + expiryDay,
+    }
+    localStorage.setItem(key, JSON.stringify(item))
+  },
+
+  get: function getWithExpiry(key) {
+    const itemStr = localStorage.getItem(key)
+
+    if (!itemStr) {
+      return undefined
+    }
+    const item = JSON.parse(itemStr)
+    const now = new Date()
+
+    if (now.getTime() > item.expiry) {
+      localStorage.removeItem(key)
+      return undefined
+    }
+    return item.value
+  }
+}
+
+// https://stackoverflow.com/questions/16839698/jquery-getscript-alternative-in-native-javascript
+const getScript = url => new Promise((resolve, reject) => {
+  const script = document.createElement('script')
+  script.src = url
+  script.async = true
+  script.onerror = reject
+  script.onload = script.onreadystatechange = function() {
+    const loadState = this.readyState
+    if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+    script.onload = script.onreadystatechange = null
+    resolve()
+  }
+  document.head.appendChild(script)
+})</script><script id="config_change">var GLOBAL_CONFIG_SITE = { 
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2021-01-29 22:31:53'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(function () {  window.activateDarkMode = function () {
+    document.documentElement.setAttribute('data-theme', 'dark')
+    if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+    }
+  }
+  window.activateLightMode = function () {
+    document.documentElement.setAttribute('data-theme', 'light')
+   if (document.querySelector('meta[name="theme-color"]') !== null) {
+      document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+    }
+  }
+  const autoChangeMode = 'false'
+  const t = saveToLocal.get('theme')
+  if (autoChangeMode === '1') {
+    const isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const isLightMode = window.matchMedia('(prefers-color-scheme: light)').matches
+    const isNotSpecified = window.matchMedia('(prefers-color-scheme: no-preference)').matches
+    const hasNoSupport = !isDarkMode && !isLightMode && !isNotSpecified
+    if (t === undefined) {
+      if (isLightMode) activateLightMode()
+      else if (isDarkMode) activateDarkMode()
+      else if (isNotSpecified || hasNoSupport) {
+        const now = new Date()
+        const hour = now.getHours()
+        const isNight = hour <= 6 || hour >= 18
+        isNight ? activateDarkMode() : activateLightMode()
+      }
+      window.matchMedia('(prefers-color-scheme: dark)').addListener(function (e) {
+        if (saveToLocal.get('theme') === undefined) {
+          e.matches ? activateDarkMode() : activateLightMode()
+        }
+      })
+    } else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else if (autoChangeMode === '2') {
+    const now = new Date()
+    const hour = now.getHours()
+    const isNight = hour <= 6 || hour >= 18
+    if (t === undefined) isNight ? activateDarkMode() : activateLightMode()
+    else if (t === 'light') activateLightMode()
+    else activateDarkMode()
+  } else {
+    if (t === 'dark') activateDarkMode()
+    else if (t === 'light') activateLightMode()
+  }const asideStatus = saveToLocal.get('aside-status')
+if (asideStatus !== undefined) {
+   if (asideStatus === 'hide') {
+     document.documentElement.classList.add('hide-aside')
+   } else {
+     document.documentElement.classList.remove('hide-aside')
+   }
+}})()</script><link rel="stylesheet" href="/css/fonticon.css"><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="菊部制造" type="application/atom+xml">
+</head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" src="/img/avatar.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image: url(https://images.jubuzz.com/PicGo/acd23fad1b633f43a535431389f8b7bc-1033c8.png)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">菊部制造</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> Home</span></a></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> Link</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">及时清理C盘垃圾</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2021-01-28T13:42:49.000Z" title="发表于 2021-01-28 21:42:49">2021-01-28</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2021-01-29T14:31:53.587Z" title="更新于 2021-01-29 22:31:53">2021-01-29</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/tech/">tech</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><p>不少朋友可能经常使用CCleaner来进行Windows系统清理，CCleaner是好，但是实话实说，更新实在是太频繁了，几乎每次打开都要弹出更新提示，更新完了，隔段时间打开继续提示，所以我们需要一个可以长期使用的进行<strong>Windows清理</strong>的工具，那么今天推荐Wise Disk Cleaner。</p>
+<h2 id="Wise-Disk-Cleaner-VS-CCleaner"><a href="#Wise-Disk-Cleaner-VS-CCleaner" class="headerlink" title="Wise Disk Cleaner VS CCleaner"></a>Wise Disk Cleaner VS CCleaner</h2><p>Wise Disk Cleaner（后面简称WDC）和CCleaner相比，有如下几个非常显著的优势：</p>
+<ol>
+<li>更新不那么频繁，除非你手动打开LiveUpdate，那还要看它服务器端有无更新的版本；</li>
+<li>UI要更好，看起来更舒适；</li>
+<li>自带中文（当然指的是今天分享的绿色版）</li>
+</ol>
+<p>另外和CCleaner一样，貌似对新系统的支持也挺好的（Windows10 20H2）。</p>
+<p><img src="https://images.jubuzz.com/PicGo/acd23fad1b633f43a535431389f8b7bc-1033c8.png" alt="Wise Disk Cleaner中文版"></p>
+<h2 id="测试Wise-Disk-Cleaner"><a href="#测试Wise-Disk-Cleaner" class="headerlink" title="测试Wise Disk Cleaner"></a>测试Wise Disk Cleaner</h2><p>我自己平时非常注重C盘清理，但是即便在这种情况，使用默认的常规清理，依然扫出了3.8G的垃圾。</p>
+<p><img src="https://images.jubuzz.com/PicGo/2de87f311cf2c95618e03768e67730ef-7117ad.png" alt="扫描垃圾"></p>
+<p>当时我就惊呆了。</p>
+<p>顺便看看系统瘦身。</p>
+<p><img src="https://images.jubuzz.com/PicGo/82ff4fee65d9c04eaf2d95cc92421543-c39740.png" alt="Windows系统盘瘦身"></p>
+<p>也能清理不少空间出来，并且基本上都是无用的内容。</p>
+<p>作为一个免费绿色的清理工具，Wise Disk Cleaner算是非常好用了，推荐可以<a target="_blank" rel="noopener external nofollow noreferrer" href="https://jubuzz.lanzous.com/iWyaAl02y4b">下载</a>使用（看不到链接请在公众号“十点神器”回复“WDC”），毕竟系统清理这个事情隔段时间还是要干一下的，谁也不知道那些被你安装到其他盘的软件会静悄悄地在你的C盘放些啥。</p>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined" rel="external nofollow noreferrer">jubuzz</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://www.jubuzz.com/tech/d546788b.html">https://www.jubuzz.com/tech/d546788b.html</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="external nofollow noreferrer" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://www.jubuzz.com" target="_blank">菊部制造</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"></div><div class="post_share"><div class="social-share" data-image="https://images.jubuzz.com/PicGo/acd23fad1b633f43a535431389f8b7bc-1033c8.png" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏<div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/img/wechat.png" target="_blank"><img class="post-qr-code-img" src="/img/wechat.png" alt="微信"/></a><div class="post-qr-code-desc">微信</div></li><li class="reward-item"><a href="/img/alipay.png" target="_blank"><img class="post-qr-code-img" src="/img/alipay.png" alt="支付宝"/></a><div class="post-qr-code-desc">支付宝</div></li></ul></div></div></div><nav class="pagination-post" id="pagination"><div class="prev-post pull-left"><a href="/tech/5cc5137.html"><img class="prev-cover" src="https://images.jubuzz.com/uPic/QU2BMo.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of previous post"><div class="pagination-info"><div class="label">上一篇</div><div class="prev_info">这个网站让你找回当年玩机的快乐</div></div></a></div><div class="next-post pull-right"><a href="/fun/3a8d46f3.html"><img class="next-cover" src="https://images.jubuzz.com/uPic/SvETIM.png" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">更侧重下载的影视资源站蓝鲸</div></div></a></div></nav><hr/><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="fas fa-comments fa-fw"></i><span> 评论</span></div></div><div class="comment-wrap"><div><div class="vcomment" id="vcomment"></div></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-info-avatar is-center"><img class="avatar-img" src="/img/avatar.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/><div class="author-info__name">jubuzz</div><div class="author-info__description">菊部制造创立于 2014 年，由个人维护，专注分享各种提高工作、学习、娱乐体验的神器工具及各种羊毛福利。</div></div><div class="card-info-data"><div class="card-info-data-item is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a></div><div class="card-info-data-item is-center"><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div></div><a class="button--animated" id="card-info-btn" target="_blank" rel="noopener external nofollow noreferrer" href="https://jq.qq.com/?_wv=1027&amp;k=3AVldesK"><i class="iconfont icon-logo-qq"></i><span>加入QQ群</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://weibo.com/jubuzz" rel="external nofollow noreferrer" target="_blank" title="Weibo"><i class="iconfont icon-logo-sina"></i></a><a class="social-icon" href="mailto:showtime4ever@126.com" rel="external nofollow noreferrer" target="_blank" title="Email"><i class="iconfont icon-Mail"></i></a><a class="social-icon" href="https://jq.qq.com/?_wv=1027&amp;k=3AVldesK" rel="external nofollow noreferrer" target="_blank" title="QQ"><i class="iconfont icon-logo-qq"></i></a><a class="social-icon" href="https://jubuzz.taobao.com/" rel="external nofollow noreferrer" target="_blank" title="taobao"><i class="iconfont icon-logo-taobao"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">博客改版，新年新气象！</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Wise-Disk-Cleaner-VS-CCleaner"><span class="toc-number">1.</span> <span class="toc-text">Wise Disk Cleaner VS CCleaner</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%B5%8B%E8%AF%95Wise-Disk-Cleaner"><span class="toc-number">2.</span> <span class="toc-text">测试Wise Disk Cleaner</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/life/ad2a15ed.html" title="耳目一新的新闻和热点追踪App"><img src="https://images.jubuzz.com/uPic/nM5Ze3.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="耳目一新的新闻和热点追踪App"/></a><div class="content"><a class="title" href="/life/ad2a15ed.html" title="耳目一新的新闻和热点追踪App">耳目一新的新闻和热点追踪App</a><time datetime="2021-02-20T05:22:49.000Z" title="发表于 2021-02-20 13:22:49">2021-02-20</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/tech/bcc1dd34.html" title="Windows UWP版磁力搜索神器"><img src="https://images.jubuzz.com/PicGo/312ff784a01a0c8dbb52e0e6c16b069d-d8dd82.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Windows UWP版磁力搜索神器"/></a><div class="content"><a class="title" href="/tech/bcc1dd34.html" title="Windows UWP版磁力搜索神器">Windows UWP版磁力搜索神器</a><time datetime="2021-02-19T12:22:49.000Z" title="发表于 2021-02-19 20:22:49">2021-02-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/tech/c48f8c01.html" title="更干净更放心的开源软件搜集平台FossHub"><img src="https://images.jubuzz.com/uPic/NAC8iS.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="更干净更放心的开源软件搜集平台FossHub"/></a><div class="content"><a class="title" href="/tech/c48f8c01.html" title="更干净更放心的开源软件搜集平台FossHub">更干净更放心的开源软件搜集平台FossHub</a><time datetime="2021-02-08T08:22:49.000Z" title="发表于 2021-02-08 16:22:49">2021-02-08</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/fun/423d7810.html" title="历史爱好者的趣味认知平台"><img src="https://images.jubuzz.com/uPic/E1zH7d.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="历史爱好者的趣味认知平台"/></a><div class="content"><a class="title" href="/fun/423d7810.html" title="历史爱好者的趣味认知平台">历史爱好者的趣味认知平台</a><time datetime="2021-02-05T12:50:49.000Z" title="发表于 2021-02-05 20:50:49">2021-02-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/tech/5c1cdbbd.html" title="大厂出品且完全免费的视频剪辑神器"><img src="https://images.jubuzz.com/PicGo/9fa790f831e1c377b2507030e3b7cc2a-7748fd.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="大厂出品且完全免费的视频剪辑神器"/></a><div class="content"><a class="title" href="/tech/5c1cdbbd.html" title="大厂出品且完全免费的视频剪辑神器">大厂出品且完全免费的视频剪辑神器</a><time datetime="2021-02-03T15:50:49.000Z" title="发表于 2021-02-03 23:50:49">2021-02-03</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By jubuzz</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text"><a href="https://beian.miit.gov.cn/" rel="external nofollow noreferrer" target="_blank">鄂ICP备15019944号-3</a> | 42010502000294 |<a href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" rel="external nofollow noreferrer" target="_blank"><img style="vertical-align:middle" src="https://images.jubuzz.com/youpaiyunlogo-png11.png" alt="又拍云" width="50" height="18" /></a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><a id="to_comment" href="#post-comment" title="直达评论"><i class="fas fa-comments"></i></a><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"/></div></div></div><hr/><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>function loadValine () {
+  function initValine () {
+    let initData = {
+      el: '#vcomment',
+      appId: 'HX8UNDNfLB92U68tKSdiX6FS-gzGzoHsz',
+      appKey: 'P8rN3h9fuCnIsS1lfctXqOwg',
+      placeholder: '留下邮箱可收到回复',
+      avatar: 'monsterid',
+      meta: 'nick,mail,link'.split(','),
+      pageSize: '10',
+      lang: 'zh-CN',
+      recordIP: false,
+      serverURLs: '',
+      emojiCDN: '//i0.hdslb.com/bfs/emote/',
+      emojiMaps: {"tv_doge":"6ea59c827c414b4a2955fe79e0f6fd3dcd515e24.png","tv_親親":"a8111ad55953ef5e3be3327ef94eb4a39d535d06.png","tv_偷笑":"bb690d4107620f1c15cff29509db529a73aee261.png","tv_再見":"180129b8ea851044ce71caf55cc8ce44bd4a4fc8.png","tv_冷漠":"b9cbc755c2b3ee43be07ca13de84e5b699a3f101.png","tv_發怒":"34ba3cd204d5b05fec70ce08fa9fa0dd612409ff.png","tv_發財":"34db290afd2963723c6eb3c4560667db7253a21a.png","tv_可愛":"9e55fd9b500ac4b96613539f1ce2f9499e314ed9.png","tv_吐血":"09dd16a7aa59b77baa1155d47484409624470c77.png","tv_呆":"fe1179ebaa191569b0d31cecafe7a2cd1c951c9d.png","tv_嘔吐":"9f996894a39e282ccf5e66856af49483f81870f3.png","tv_困":"241ee304e44c0af029adceb294399391e4737ef2.png","tv_壞笑":"1f0b87f731a671079842116e0991c91c2c88645a.png","tv_大佬":"093c1e2c490161aca397afc45573c877cdead616.png","tv_大哭":"23269aeb35f99daee28dda129676f6e9ea87934f.png","tv_委屈":"d04dba7b5465779e9755d2ab6f0a897b9b33bb77.png","tv_害羞":"a37683fb5642fa3ddfc7f4e5525fd13e42a2bdb1.png","tv_尷尬":"7cfa62dafc59798a3d3fb262d421eeeff166cfa4.png","tv_微笑":"70dc5c7b56f93eb61bddba11e28fb1d18fddcd4c.png","tv_思考":"90cf159733e558137ed20aa04d09964436f618a1.png","tv_驚嚇":"0d15c7e2ee58e935adc6a7193ee042388adc22af.png"},
+      enableQQ: false,
+      path: window.location.pathname,
+    }
+
+    if (true) { 
+      initData.requiredFields= ('nick,mail'.split(','))
+    }
+    
+    if (false) {
+      const otherData = false
+      initData = Object.assign(initData, otherData)
+    }
+    
+    const valine = new Valine(initData)
+  }
+
+  if (typeof Valine === 'function') initValine() 
+  else getScript('https://cdn.jsdelivr.net/npm/valine/dist/Valine.min.js').then(initValine)
+}
+
+if ('Valine' === 'Valine' || !true) {
+  if (true) btf.loadComment(document.getElementById('vcomment'),loadValine)
+  else setTimeout(loadValine, 0)
+} else {
+  function loadOtherComment () {
+    loadValine()
+  }
+}</script><script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></div></body></html>

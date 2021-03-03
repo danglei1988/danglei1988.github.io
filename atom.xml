@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>恰到薅处</title>
-  <icon>https://danglei1988.github.io/icon.png</icon>
-  <subtitle>万物皆羊毛</subtitle>
-  <link href="https://danglei1988.github.io/atom.xml" rel="self"/>
+  <title>菊部制造</title>
+  <icon>https://www.jubuzz.com/icon.png</icon>
+  <subtitle>效率就是生命</subtitle>
+  <link href="https://www.jubuzz.com/atom.xml" rel="self"/>
   
-  <link href="https://danglei1988.github.io/"/>
-  <updated>2021-01-24T11:00:05.498Z</updated>
-  <id>https://danglei1988.github.io/</id>
+  <link href="https://www.jubuzz.com/"/>
+  <updated>2021-02-20T13:25:00.259Z</updated>
+  <id>https://www.jubuzz.com/</id>
   
   <author>
     <name>jubuzz</name>
@@ -17,24 +17,188 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试文章标题</title>
-    <link href="https://danglei1988.github.io/Hexo/ff8c69fb9cb1.html"/>
-    <id>https://danglei1988.github.io/Hexo/ff8c69fb9cb1.html</id>
-    <published>2021-01-23T14:08:16.915Z</published>
-    <updated>2021-01-24T11:00:05.498Z</updated>
+    <title>耳目一新的新闻和热点追踪App</title>
+    <link href="https://www.jubuzz.com/life/ad2a15ed.html"/>
+    <id>https://www.jubuzz.com/life/ad2a15ed.html</id>
+    <published>2021-02-20T05:22:49.000Z</published>
+    <updated>2021-02-20T13:25:00.259Z</updated>
     
     
-      
-      
-        
-        
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
-        
-      
+    <summary type="html">今日头条啥的标题党太多了，保持每日跟上时代还是要稍微干净一点</summary>
     
     
     
-    <category term="Hexo" scheme="https://danglei1988.github.io/categories/Hexo/"/>
+    <category term="life" scheme="https://www.jubuzz.com/categories/life/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Windows UWP版磁力搜索神器</title>
+    <link href="https://www.jubuzz.com/tech/bcc1dd34.html"/>
+    <id>https://www.jubuzz.com/tech/bcc1dd34.html</id>
+    <published>2021-02-19T12:22:49.000Z</published>
+    <updated>2021-02-19T12:25:29.399Z</updated>
+    
+    
+    <summary type="html">影视爱好者必备神器，啥也不多说了</summary>
+    
+    
+    
+    <category term="tech" scheme="https://www.jubuzz.com/categories/tech/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>更干净更放心的开源软件搜集平台FossHub</title>
+    <link href="https://www.jubuzz.com/tech/c48f8c01.html"/>
+    <id>https://www.jubuzz.com/tech/c48f8c01.html</id>
+    <published>2021-02-08T08:22:49.000Z</published>
+    <updated>2021-02-19T11:51:42.514Z</updated>
+    
+    
+    <summary type="html">正常使用可能对英文有一定要求，不过借助浏览器的自动翻译应该也还好</summary>
+    
+    
+    
+    <category term="tech" scheme="https://www.jubuzz.com/categories/tech/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>历史爱好者的趣味认知平台</title>
+    <link href="https://www.jubuzz.com/fun/423d7810.html"/>
+    <id>https://www.jubuzz.com/fun/423d7810.html</id>
+    <published>2021-02-05T12:50:49.000Z</published>
+    <updated>2021-02-19T11:51:42.514Z</updated>
+    
+    
+    <summary type="html">当然”全历史“也非常不错，不过相对这个历史车轮而言，还是趣味性稍差些</summary>
+    
+    
+    
+    <category term="fun" scheme="https://www.jubuzz.com/categories/fun/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>大厂出品且完全免费的视频剪辑神器</title>
+    <link href="https://www.jubuzz.com/tech/5c1cdbbd.html"/>
+    <id>https://www.jubuzz.com/tech/5c1cdbbd.html</id>
+    <published>2021-02-03T15:50:49.000Z</published>
+    <updated>2021-02-03T15:36:18.283Z</updated>
+    
+    
+    <summary type="html">个人感觉比喵影工厂要更加好用，毕竟免费</summary>
+    
+    
+    
+    <category term="tech" scheme="https://www.jubuzz.com/categories/tech/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>可能是最适合体育迷的看球直播站</title>
+    <link href="https://www.jubuzz.com/fun/f5799d96.html"/>
+    <id>https://www.jubuzz.com/fun/f5799d96.html</id>
+    <published>2021-01-31T08:22:49.000Z</published>
+    <updated>2021-01-31T13:51:00.874Z</updated>
+    
+    
+    <summary type="html">历史上的直播网站着实不多，但是这个特别适合体育迷</summary>
+    
+    
+    
+    <category term="fun" scheme="https://www.jubuzz.com/categories/fun/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Android平台独享看漫画神器</title>
+    <link href="https://www.jubuzz.com/fun/c8c69511.html"/>
+    <id>https://www.jubuzz.com/fun/c8c69511.html</id>
+    <published>2021-01-30T15:22:49.000Z</published>
+    <updated>2021-01-30T15:33:45.990Z</updated>
+    
+    
+    <summary type="html">市面上有的漫画平台，基本上都可以用这个只有5M的App来调用</summary>
+    
+    
+    
+    <category term="fun" scheme="https://www.jubuzz.com/categories/fun/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>这个网站让你找回当年玩机的快乐</title>
+    <link href="https://www.jubuzz.com/tech/5cc5137.html"/>
+    <id>https://www.jubuzz.com/tech/5cc5137.html</id>
+    <published>2021-01-29T07:15:49.000Z</published>
+    <updated>2021-01-29T14:31:53.587Z</updated>
+    
+    
+    <summary type="html">不管是80年代的Mac，还是小时候的红白机、学习机，总有一款适合你</summary>
+    
+    
+    
+    <category term="tech" scheme="https://www.jubuzz.com/categories/tech/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>及时清理C盘垃圾</title>
+    <link href="https://www.jubuzz.com/tech/d546788b.html"/>
+    <id>https://www.jubuzz.com/tech/d546788b.html</id>
+    <published>2021-01-28T13:42:49.000Z</published>
+    <updated>2021-01-29T14:31:53.587Z</updated>
+    
+    
+    <summary type="html">可能比CCleaner更好用的Windows系统清理软件</summary>
+    
+    
+    
+    <category term="tech" scheme="https://www.jubuzz.com/categories/tech/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>更侧重下载的影视资源站蓝鲸</title>
+    <link href="https://www.jubuzz.com/fun/3a8d46f3.html"/>
+    <id>https://www.jubuzz.com/fun/3a8d46f3.html</id>
+    <published>2021-01-27T06:07:00.000Z</published>
+    <updated>2021-01-29T14:29:04.712Z</updated>
+    
+    
+    <summary type="html">比电影天堂更好用的电影下载站</summary>
+    
+    
+    
+    <category term="fun" scheme="https://www.jubuzz.com/categories/fun/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>欢迎来到菊部制造的新地盘</title>
+    <link href="https://www.jubuzz.com/life/4d23c62a.html"/>
+    <id>https://www.jubuzz.com/life/4d23c62a.html</id>
+    <published>2021-01-25T15:45:02.000Z</published>
+    <updated>2021-01-29T14:29:04.711Z</updated>
+    
+    
+    <summary type="html">博客从WordPress搬家到Github</summary>
+    
+    
+    
+    <category term="life" scheme="https://www.jubuzz.com/categories/life/"/>
     
     
   </entry>

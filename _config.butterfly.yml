@@ -945,29 +945,3 @@ CDN:
 
   artitalk: https://cdn.jsdelivr.net/npm/artitalk
 
-  # 豆瓣插件
-  douban:
-  user: 187664705
-  builtin: true
-  # book:
-   # title: '那些书'
-   # quote: '那些书'
-   # meta: true
-   # comments: true
-   # top_img: https://images.jubuzz.com/PicGo/a16208618da0c5d97318a2cf3b5add5f-137ea1.jpg
-   # aside: true
-  movie:
-    title: '那些影视'
-    quote: '那些影视'
-    meta: true
-    comments: true
-    top_img: https://images.jubuzz.com/PicGo/16f99b1045489335d97bae7f5f086934-0227fa.jpg
-    aside: true
-  # game:
-   # title: '那些游戏'
-   # quote: '那些游戏'
-   # meta: true
-   # comments: true
-   # top_img: https://images.jubuzz.com/PicGo/74deb0b94f8e945e6972a36831c9c23b-fd4620.jpg
-   # aside: true
-  timeout: 10000 

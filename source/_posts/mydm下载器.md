@@ -4,7 +4,8 @@ categories: tech
 keywords: '迅雷,下载,Office'
 description: 其实核心是下载插件了，真的挺不错的，省了多少找资源的时间
 date: '2021/3/2 21:22:49'
-cover: https://images.jubuzz.com/PicGo/59b43b44f1fa4cb202e414728f7ec83f-6b00e0.webp
+cover: 'https://images.jubuzz.com/PicGo/59b43b44f1fa4cb202e414728f7ec83f-6b00e0.webp'
+abbrlink: 718be107
 ---
 
 虽然“十点神器”曾经分享过自用的迅雷11破解版（“十点神器”回复“迅雷11”领取），但是毕竟资源还是得自己找，如果你频繁地下载音乐、系统或Office办公软件的话，可以试试**Mydm**。

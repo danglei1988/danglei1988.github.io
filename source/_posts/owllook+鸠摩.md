@@ -4,7 +4,8 @@ categories: life
 keywords: '电子书,下载,搜索'
 description: 虽非鸿儒，但是多读读书总是不错的
 date: '2021/2/23 17:42:49'
-cover: https://images.jubuzz.com/uPic/n3OM8J.jpg
+cover: 'https://images.jubuzz.com/uPic/n3OM8J.jpg'
+abbrlink: d38894ba
 ---
 
 昨天分享了两个[电影磁力下载站](https://www.jubuzz.com/fun/f7f15c0b.html)，今天再来两个**电子书**的。

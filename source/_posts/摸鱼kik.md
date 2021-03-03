@@ -4,7 +4,8 @@ categories: life
 keywords: '摸鱼,kik,App'
 description: 真正利用好你的碎片化时间
 date: '2021/2/28 14:22:49'
-cover: https://images.jubuzz.com/uPic/RTaSsY.jpg
+cover: 'https://images.jubuzz.com/uPic/RTaSsY.jpg'
+abbrlink: deb89d59
 ---
 
 正月十五也过了，差不多大家也都进入了正常的学习和工作状态了吧？

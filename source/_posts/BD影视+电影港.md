@@ -4,7 +4,8 @@ categories: fun
 keywords: '电影,下载,磁力,迅雷'
 description: 这两个磁力电影下载站更新都挺快，下载速度也都可以
 date: '2021/2/22 16:42:49'
-cover: https://images.jubuzz.com/uPic/jf68sE.jpg
+cover: 'https://images.jubuzz.com/uPic/jf68sE.jpg'
+abbrlink: f7f15c0b
 ---
 
 之前分享过一个更侧重下载的影视资源站[蓝鲸影视](https://www.jubuzz.com/fun/3a8d46f3.html)，后面总是感觉这个站不够纯粹，或者说名气没有那么大，更新没有那么快，资源没有那么全，所以后面就找了两个更加适合保存作为常用电影下载站的网站分享给大家。

@@ -629,7 +629,7 @@ aside:
   position: right # left or right
   card_announcement:
     enable: true
-    content: 本地搜索已更新，请回到顶部尝试一搜就有的骚操作
+    content: 原菊部制造大部分旧博文全部备份于<a href="https://jubuzz.lofter.com/">Lofter</a>
   card_author:
     enable: true
     description:

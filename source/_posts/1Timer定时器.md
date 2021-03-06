@@ -2,7 +2,7 @@
 title: 可能是iOS上最好用的定时器，现在限时免费
 categories: free-for-now
 keywords: 'iOS,定时器,限免'
-description: 如果使用钢琴音效，请调小音量
+description: 重点是语音播报，用来锻炼身体或者专注办公挺好用的，毕竟限免，先领为敬
 date: '2021/3/6 12:52:49'
 cover: https://images.jubuzz.com/uPic/Z6QcH0.jpg
 ---

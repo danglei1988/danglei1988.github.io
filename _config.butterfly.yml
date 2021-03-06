@@ -629,7 +629,7 @@ aside:
   position: right # left or right
   card_announcement:
     enable: true
-    content: 原菊部制造大部分旧博文全部备份于<a href="https://jubuzz.lofter.com/">Lofter</a>
+    content: 如有疑问，请联系微信jubuzzwx
   card_author:
     enable: true
     description:

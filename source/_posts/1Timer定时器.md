@@ -34,3 +34,5 @@ cover: https://images.jubuzz.com/uPic/Z6QcH0.jpg
 对了还有**iOS小部件**可以使用，无需打开App就可以轻松计时。
 
 不过大哲学家[罗素](https://s.click.taobao.com/t?e=m%3D2%26s%3Daq62D36akv4cQipKwQzePOeEDrYVVa64K7Vc7tFgwiHjf2vlNIV67i78Z7LI5gcw5jVt69nCuKd%2FCltw1MlV8CYlQgmSVimz52%2BjFfxSKrKXwoGz%2FdHYNvAy%2Fay3dFHhPplz8soEI3DJBWOJ0ok8clCsIX9YNFFoxFx6ygHSjDyiyFQPcB0X4cRkVb8MnZRx&scm=null&pvid=null&app_pvid=59590_33.8.33.30_646_1615004017257&ptl=floorId%3A17741&originalFloorId%3A17741&app_pvid%3A59590_33.8.33.30_646_1615004017257&union_lens=lensId%3APUB%401615004004%402105584e_076a_17805bd71b1_0840%40024pO8tq1jnL3bdJXIitnPXd)也说了：你能在浪费时间中获得乐趣，那就不是浪费时间。
+
+2021年3月7日更新：[Android平台倒计时App](https://www.jubuzz.com/life/441eee90.html)。

@@ -7,7 +7,7 @@ date: '2021/3/8 23:22:49'
 cover: https://images.jubuzz.com/PicGo/4e35f37fe71f97873b1225ec2e5ebabc-994983.jpg
 ---
 
-昨天分享了一个Glary Utilities Pro，可能是Windows平台最为全面强大的优化工具，在谈到功能概览的时候，看到里面有软件卸载的相关功能，但是对于卸载，我们总是担心不够干净不够彻底，刚好最近发现了一款用于Windows平台的比较小巧暴力的卸载软件**Geek Uninstaller**，今天分享出来。
+昨天分享了一个[Glary Utilities Pro](https://www.jubuzz.com/tech/33556528.html)，可能是Windows平台最为全面强大的优化工具，在谈到功能概览的时候，看到里面有软件卸载的相关功能，但是对于卸载，我们总是担心不够干净不够彻底，刚好最近发现了一款用于Windows平台的比较小巧暴力的卸载软件**Geek Uninstaller**，今天分享出来。
 
 Geek Uninstaller一路从Windows XP支持到Windows10，作为一款免费软件，非常良心，但是同样非常遗憾的是软件自从2019年9月11日后就没再更新过了，最终的版本号是1.4.7.142，不过我自己一直在用，也没察觉到有什么异样。
 
